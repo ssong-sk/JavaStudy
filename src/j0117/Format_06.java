@@ -20,6 +20,10 @@ package j0117;
  * ----->getCurrencyInstance()와 getPercentInstance()는 현재 지역의 화폐와 백분율 양식을 반영하므로, 한국에서는 기본값으로 \와 %로 반환
  * ----->$로 반환을 해야 되는 경우는 Locale.US 를 입력 (ex ) String price = NumberFormat.getCurrencyInstance(Locale.US).format(10);
  * 
+ * getInstance() ????
+ * 객체 지향 프로그래밍에서 주로 사용되는 메소드
+ * 클래스의 인스턴스를 생성하고, 이미 생성된 인스턴스를 반환하는 역할
+ * 
  */
 
 import java.text.NumberFormat;
