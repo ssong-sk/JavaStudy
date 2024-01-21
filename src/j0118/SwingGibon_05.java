@@ -56,7 +56,7 @@ import javax.swing.JFrame;
  */
 
 
-public class SwingGibon_05 extends JFrame{ //스윙은 인터페이스 구현하기 위한 클래스로 JFame 구현되는 하나의 창 / 상속
+public class SwingGibon_05 extends JFrame{ //스윙은 인터페이스(동작) 구현하기 위한 클래스로 JFame 구현되는 하나의 창 / 상속
 	
 	
     public SwingGibon_05(String title) { //0118_01

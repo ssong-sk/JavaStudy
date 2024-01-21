@@ -27,11 +27,12 @@ public class SwingLay_07 extends JFrame { // 0118 _03
 		//2-3. 버튼 생성
 		
 		btn1 = new JButton("ONE");
+		this.add("North", btn1);
 		
 		//3. 컴포넌트(버튼) 위치와 방향 설정해주기
 		//(프레임은 기본 BorderLayout / 새로 할 경우 new를 붙여서 사용 (위치 지정 필수!!)
 		
-		this.add("North", btn1);
+		
 		
 		this.add("South", new JButton("아래쪽"));
 		this.add("West", new JButton("오른쪽"));
